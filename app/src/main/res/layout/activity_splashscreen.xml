@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+
+    android:orientation="vertical"
+    tools:context=".splashscreen">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:gravity="center"
+
+        android:textColor="@color/whiteTextColor"
+        android:textSize="55dp"
+
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <com.airbnb.lottie.LottieAnimationView
+
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="300dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:elevation="5dp"
+        app:lottie_rawRes="@raw/shake"/>
+
+
+    <TextView
+
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/regular"
+
+        android:layout_marginTop="-30dp"
+        android:gravity="center"
+        android:text="Veeros"
+
+
+        android:textColor="#E6EAF3"
+        android:textSize="75dp" />
+
+    <TextView
+
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+
+        android:textColor="@color/whiteTextColor"
+        android:textSize="36dp" />
+
+</LinearLayout>

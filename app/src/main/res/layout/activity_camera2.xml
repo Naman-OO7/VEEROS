@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Aadhar Verification"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+
+        />
+
+    <ImageView
+        android:layout_marginTop="120sp"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+
+
+
+    <Button
+        android:layout_marginTop="90sp"
+        android:layout_width="300sp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/camera_btn"
+        android:layout_height="wrap_content"
+        android:text="Take photo"
+        android:textStyle="bold"
+
+        android:id="@+id/button" />
+
+    <Button
+
+        android:layout_marginTop="20sp"
+        android:layout_width="300sp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/camera_btn"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:id="@+id/button2" />
+
+
+
+
+</LinearLayout>
